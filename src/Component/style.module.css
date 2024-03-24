@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(249, 248, 248);
+    box-shadow: 0 0 20px 20px gray;
+    gap:1rem;
+}
+.inputContainer{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap:1rem;
+}
+.inputContainer label{
+    padding-right: 10px;
+
+}
+.inputContainer input{
+    width:250px;
+    padding:5px 5px;
+    box-shadow: 5px 5px  rgb(11, 73, 73);
+}
+.buttonContainer{
+ text-align: center;
+
+}
+.buttonContainer button{
+    padding:5px 15px;
+    font-weight: bold;
+    background:linear-gradient(rgb(19, 142, 19),rgb(11, 73, 73))
+}
+.childContainer{
+    margin-top:2rem;
+    font-weight: bold;
+    text-align: center;
+}
