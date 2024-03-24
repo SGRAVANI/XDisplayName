@@ -11,7 +11,7 @@ export default function Parent() {
     setF(true)
     //data={fname:ip.fname,lname:ip.lname}
     setSbmtData(ip)
-
+     setIp({fname:"",lname:""})
     console.log("data is submitted")
     }
     function handleChange(e){
